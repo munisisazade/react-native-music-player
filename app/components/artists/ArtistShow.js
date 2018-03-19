@@ -155,8 +155,8 @@ const styles = StyleSheet.create({
     marginTop: 15,
     paddingTop: 10,
     paddingBottom: 10,
-    paddingLeft: 70,
-    paddingRight: 70,
+    paddingLeft: 20,
+    paddingRight: 20,
     backgroundColor: "#f62976",
     borderRadius: 200,
   },
@@ -166,10 +166,10 @@ const styles = StyleSheet.create({
     fontSize: 13,
   },
   songsList: {
-    flex: 1,
+    flex: 10,
     backgroundColor: "#000",
     paddingTop: 5,
-    height: window.height - STICKY_HEADER_HEIGHT,
+    height: window.height + STICKY_HEADER_HEIGHT+ 2600,
   },
   song: {
     paddingTop: 10,

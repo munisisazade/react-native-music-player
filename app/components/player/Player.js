@@ -161,7 +161,7 @@ class Player extends Component {
           style={ styles.songImage }
           source={{uri: image,
                         width: window.width - 30,
-                        height: 300}}/>
+                        height: 250}}/>
         <Text style={ styles.songTitle }>
           { songPlaying.title }
         </Text>

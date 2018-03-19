@@ -23,10 +23,11 @@ class ArtistList extends Component {
   }
 
   render() {
+    console.log(this.props);
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Artists
+          Artist listi
         </Text>
         <ListView
           dataSource={this.state.dataSource}
